@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=nome\ idade\ tempoServico\ numeroFilhos\ salarioBruto\ noturno
+comment0.target=Funcionario(java.lang.String,\ int,\ int,\ int,\ double,\ boolean)
+comment1.params=nome\ idade\ tempoServico\ numeroFilhos\ salarioBruto
+comment1.target=Funcionario(java.lang.String,\ int,\ int,\ int,\ double)
+comment10.params=
+comment10.target=double\ bonusTrabalhadorNoturno()
+comment11.params=
+comment11.target=double\ salarioLiquido()
+comment2.params=nome\ idade
+comment2.target=Funcionario(java.lang.String,\ int)
+comment3.params=
+comment3.target=int\ getIdade()
+comment4.params=idade
+comment4.target=void\ setIdade(int)
+comment5.params=
+comment5.target=int\ getNumeroFilhos()
+comment6.params=numeroFilhos
+comment6.target=void\ setNumeroFilhos(int)
+comment7.params=
+comment7.target=boolean\ getNoturno()
+comment8.params=noturno
+comment8.target=void\ setNoturno(boolean)
+comment9.params=
+comment9.target=double\ bonusNumeroFilho()
+numComments=12

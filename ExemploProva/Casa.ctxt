@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Casa()
+comment1.params=
+comment1.target=double\ valorVenal()
+comment2.params=metragemTerreno
+comment2.target=void\ setMetragemTerreno(int)
+comment3.params=
+comment3.target=int\ getMetragemTerreno()
+numComments=4

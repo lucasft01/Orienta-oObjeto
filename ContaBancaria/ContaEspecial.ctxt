@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=numero\ limiteCredito
+comment0.target=ContaEspecial(int,\ double)
+comment1.params=numero
+comment1.target=ContaEspecial(int)
+comment2.params=valor
+comment2.target=void\ sacar(double)
+comment3.params=limiteCredito
+comment3.target=void\ setLimiteCredito(double)
+comment4.params=
+comment4.target=double\ getLimiteCredito()
+numComments=5

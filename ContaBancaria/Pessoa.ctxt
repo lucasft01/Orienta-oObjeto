@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Pessoa()
+comment1.params=nome\ cpf
+comment1.target=Pessoa(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=double\ saldoTotal()
+comment3.params=conta
+comment3.target=void\ addConta(Conta)
+comment4.params=conta
+comment4.target=void\ removeConta(Conta)
+comment5.params=
+comment5.target=java.util.ArrayList\ getContas()
+comment6.params=nome
+comment6.target=void\ setNome(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getNome()
+comment8.params=cpf
+comment8.target=void\ setCpf(java.lang.String)
+comment9.params=
+comment9.target=java.lang.String\ getCpf()
+numComments=10

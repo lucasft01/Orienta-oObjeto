@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Apartamento()
+comment1.params=
+comment1.target=double\ valorVenal()
+comment2.params=numeroQuartos
+comment2.target=void\ setNumeroQuartos(int)
+comment3.params=
+comment3.target=int\ getNumeroQuartos()
+numComments=4

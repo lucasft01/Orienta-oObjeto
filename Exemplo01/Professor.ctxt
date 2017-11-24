@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=n\ mat\ ch\ mest\ dout\ vlr
+comment0.target=Professor(java.lang.String,\ int,\ int,\ boolean,\ boolean,\ double)
+comment1.params=
+comment1.target=double\ salario()
+numComments=2

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Pagamento()
+comment1.params=mesAno
+comment1.target=void\ setMesAno(int)
+comment2.params=
+comment2.target=int\ getMesAno()
+comment3.params=valorPago
+comment3.target=void\ setValorPago(double)
+comment4.params=
+comment4.target=double\ getValorPago()
+comment5.params=condominio
+comment5.target=void\ setCondominio(Condominio)
+comment6.params=
+comment6.target=Condominio\ getCondominio()
+comment7.params=imovel
+comment7.target=void\ setImovel(Imovel)
+comment8.params=
+comment8.target=Imovel\ getImovel()
+numComments=9

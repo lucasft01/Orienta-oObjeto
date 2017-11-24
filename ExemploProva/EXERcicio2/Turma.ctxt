@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Turma()
+comment1.params=representante
+comment1.target=void\ setRepresentante(Aluno)
+comment2.params=
+comment2.target=Aluno\ getRepresentante()
+comment3.params=alu
+comment3.target=void\ addAluno(Aluno)
+comment4.params=
+comment4.target=java.util.ArrayList\ getAlunos()
+numComments=5

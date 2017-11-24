@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=nome\ tempoServico\ salarioFixo\ comissao\ totalVendas
+comment0.target=Vendedor(java.lang.String,\ int,\ double,\ double,\ double)
+comment1.params=
+comment1.target=Vendedor()
+comment2.params=
+comment2.target=double\ ComissaoVenda()
+comment3.params=
+comment3.target=double\ salarioLiquido()
+comment4.params=
+comment4.target=double\ getComissao()
+comment5.params=comissao
+comment5.target=void\ setComissao(double)
+comment6.params=
+comment6.target=double\ getTotalVendas()
+comment7.params=totalVendas
+comment7.target=void\ setTotalVendas(double)
+numComments=8

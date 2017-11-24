@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=nome
+comment0.target=Pessoa(java.lang.String)
+comment0.text=\r\n\ \ \ \ public\ Pessoa(){\r\n\ \ \ \ \ \ this.nome\ \=\ "";\r\n\ \ \ \ \ \ tempoServico\ \=\ 0;\r\n\ \ \ \ \ \ salario\ \=\ 0;\r\n\ \ \ \ \ \ \r\n\ \ \ \ }\r\n
+comment1.params=nome\ tempoServico
+comment1.target=Pessoa(java.lang.String,\ int)
+comment10.params=
+comment10.target=double\ bonusTemposServico()
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment3.params=nome
+comment3.target=void\ setNome(java.lang.String)
+comment4.params=
+comment4.target=int\ getTempoServico()
+comment5.params=tempoServico
+comment5.target=void\ setTempoServico(int)
+comment6.params=
+comment6.target=double\ getSalario()
+comment7.params=salario
+comment7.target=void\ setSalario(double)
+comment8.params=
+comment8.target=double\ salarioLiquido()
+comment9.params=
+comment9.target=double\ inss()
+numComments=11

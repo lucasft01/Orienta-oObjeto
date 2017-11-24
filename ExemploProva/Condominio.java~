@@ -1,0 +1,76 @@
+import java.util.ArrayList;
+public class Condominio
+{
+    private String nome, endereco;
+    private ArrayList<Despesa> despesas;
+    private ArrayList<Imovel> imoveis;
+    private ArrayList<Pagamento> pagamentos;
+    
+    public Condominio(){
+        nome = endereco = "";
+        despesas = new ArrayList<>();
+        imoveis = new ArrayList<>();
+    }
+    
+    public double valorCondominio(int mesAno){
+        double somaDespesas= 0;
+        for(int i=0; i< pagamentos.size(); i++){
+            Despesa d= despesas.get(i);
+            if(d.getMesAno()== mesAno){
+                somaDespesas+= d.getMesAno();
+            }
+        }
+        return somaDespesas/imoveis.size();
+    }
+    public void relatorio(int mesAno){
+        System.out.println("Mes: " + mesAno);
+        double somaPagamentos= 0;
+        int pagantes= 0;
+        for(int i=0; i< pagamentos.size(); i++){
+            Pagamento p= pagamentos.get(i);
+            if(p.getMesAno()== mesAno){
+                somaPagamentos+= p.getMesAno();
+                pagantes++;
+            }
+        }
+        System.out.println(imoveis.size() + "apartamento(s) (" + pagantes + ")");       
+        System.out.println("Valor arrecadado: " + somaPagamentos);        
+    }
+    
+    public void pagarCondominio(Imovel imovel, int mesAno){
+        Pagamento p = new Pagamento();
+        p.getValorPago();
+    }
+    
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+    public String getNome(){
+        return nome;
+    }
+    
+    public void setEndereco(String endereco){
+        this.endereco = endereco;
+    }
+    public String getEndereco(){
+        return endereco;
+    }
+    public void adicionarDespesa(Despesa desp){
+        this.despesas.add(desp);
+    }
+    public ArrayList<Despesa> getDespesas(){
+        return despesas;
+    }
+    public void adicionarImovel(Imovel desp){
+        this.imoveis.add(desp);
+    }
+    public ArrayList<Imovel> getImoveis(){
+        return imoveis;
+    }
+    public void adicionarPagamento(Pagamento pag){
+        this.pagamentos.add(pag);
+    }
+    public ArrayList<Pagamento> getPagamentos(){
+        return pagamentos;
+    }
+}
